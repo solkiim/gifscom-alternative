@@ -1,17 +1,26 @@
 /* ------------------ FONTS ------------------ */
-/*
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url('fonts/Didot.eot');
-  src: url('fonts/Didot.woff2') format('woff2'),
-       url('fonts/Didot.woff') format('woff'),
-       url('fonts/Didot.ttf') format('truetype'),
-       url('fonts/Didot.svg#Didot') format('svg'),
-       url('fonts/Didot.eot?#iefix') format('embedded-opentype');
+  font-family: 'Montserrat-Bold';
+  src: url('Montserrat-Bold.eot');
+  src: url('Montserrat-Bold.woff2') format('woff2'),
+       url('Montserrat-Bold.woff') format('woff'),
+       url('Montserrat-Bold.ttf') format('truetype'),
+       url('Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
+       url('Montserrat-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
-*/
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('Montserrat-Regular.eot');
+  src: url('Montserrat-Regular.woff2') format('woff2'),
+       url('Montserrat-Regular.woff') format('woff'),
+       url('Montserrat-Regular.ttf') format('truetype'),
+       url('Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+       url('Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /* ------------------ GENERAL ------------------ */
@@ -62,7 +71,7 @@ html a:hover {
 	height: 100%;
 	top: 0px!important;
     text-align: center;
-	font-family: MontserratBold;
+	font-family: 'Montserrat-Bold';
 	background: #FF4771;
 }
 #intro h1 {
@@ -119,7 +128,7 @@ html a:hover {
 #cool-stuff h2 {
 	color: #FF4771;
 	font-size: 45px;
-	font-family: MontserratBold;
+	font-family: 'Montserrat-Bold';
 	margin-top: -50px;
 }
 #cool-stuff p {
@@ -188,7 +197,7 @@ html a:hover {
 	text-align: center;
 	width: auto;
 	width: 80px;
-	font-family: MontserratRegular;
+	font-family: 'Montserrat-Regular';
 	font-size: 15px;
 	height: 36px;
 	letter-spacing: 2px;
