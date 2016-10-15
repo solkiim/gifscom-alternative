@@ -1,23 +1,23 @@
 /* ------------------ FONTS ------------------ */
 @font-face {
   font-family: 'Montserrat-Bold';
-  src: url('Montserrat-Bold.eot');
-  src: url('Montserrat-Bold.woff2') format('woff2'),
-       url('Montserrat-Bold.woff') format('woff'),
-       url('Montserrat-Bold.ttf') format('truetype'),
-       url('Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
-       url('Montserrat-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/Montserrat-Bold.eot');
+  src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('fonts/Montserrat-Bold.woff') format('woff'),
+       url('fonts/Montserrat-Bold.ttf') format('truetype'),
+       url('fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg'),
+       url('fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url('Montserrat-Regular.eot');
-  src: url('Montserrat-Regular.woff2') format('woff2'),
-       url('Montserrat-Regular.woff') format('woff'),
-       url('Montserrat-Regular.ttf') format('truetype'),
-       url('Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
-       url('Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/Montserrat-Regular.eot');
+  src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('fonts/Montserrat-Regular.woff') format('woff'),
+       url('fonts/Montserrat-Regular.ttf') format('truetype'),
+       url('fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+       url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
