@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="gifs-redesign"/>
+    
+    <title>Gifs Redesign</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/set1.css"/>
+	<link rel="stylesheet" href="css/css.css" media="Screen"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <section id="intro" class="full-page">
+        <img src="dealwithit.png" id="dwi-image">
+		<h1>gifs.com</h1>
+		<h3 id="dwi-text">DEAL WITH IT</h3>
+    </section>
+
+    <section id="cool-stuff" class="full-page">
+        <div id="content">
+			<h2>gif anything in seconds</h2>
+			<p>A YouTube video, an NBA game, a Twitch stream — anything.</p>
+			<form id="gif-form" name="gif-form" role="form">
+				<span class="input input--hoshi">
+					<input id="link" class="input__field input__field--hoshi" name="Link" type="text" autocomplete="off" placeholder="Search or paste a URL (Youtube, Vine, Instagram, ...)" required>
+					<label class="input__label input__label--hoshi" for="link">
+						<span class="input__label-content input__label-content--hoshi"></span>
+					</label>
+				</span>
+				<input type="submit" value="create">
+			</form>
+			<div id="dragndrop">drag & drop or <span>select file</span></div>
+        </div>
+		
+		<img src="transparent.gif">
+    </section>
+
+    <!-- JS -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
